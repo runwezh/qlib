@@ -1,4 +1,4 @@
-from setuptools import setup, Extension
+from setuptools import setup, Extension, find_packages
 import numpy
 import os
 
@@ -23,7 +23,9 @@ VERSION = get_version("qlib/__init__.py")
 
 
 setup(
+    name="qlib",
     version=VERSION,
+    packages=find_packages(),
     ext_modules=[
         Extension(
             "qlib.data._libs.rolling",

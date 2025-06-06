@@ -65,7 +65,7 @@ task:
         kwargs:
             handler:
                 class: Avg15minHandler
-                module_path: multi_freq_handler.py
+                module_path: /Users/zhaohua/study/qlib/examples/benchmarks/LightGBM/multi_freq_handler.py
                 kwargs: *data_handler_config
             segments:
                 train: [2008-01-01, 2014-12-31]
