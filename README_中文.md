@@ -575,3 +575,5 @@ Qlib数据以紧凑格式存储，这对于组合成科学计算数组是高效�
 
 此项目采用了[Microsoft开源行为准则](https://opensource.microsoft.com/codeofconduct/)。
 更多信息请参见[行为准则FAQ](https://opensource.microsoft.com/codeofconduct/faq/)或联系[opencode@microsoft.com](mailto:opencode@microsoft.com)获取任何其他问题或评论。
+
+本分支仅用于学习
