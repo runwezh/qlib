@@ -51,5 +51,8 @@ tags
 .idea/
 .aider*
 
+# 忽略因子分析结果
+stock-niubi/factor_analysis_results/
+
 # serena agent
 .serena/
